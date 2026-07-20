@@ -1,0 +1,532 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Abdelazeem Ashraf | Frontend React Developer Portfolio</title>
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+            crossorigin="anonymous" />
+        <link rel="stylesheet" href="./css/all.min.css" />
+        <link rel="stylesheet" href="./css/style.css" />
+        <link rel="stylesheet" href="./css/responsive.css" />
+        <!-- Favicon -->
+        <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>💻</text></svg>">
+    </head>
+    <body>
+        <nav class="navbar navbar-expand-lg fixed-top bg-light-translucent navbar-light">
+            <div class="container">
+                <a class="navbar-brand fw-bold fs-3" href="#home">&lt;AA /&gt;</a>
+                <button
+                    class="navbar-toggler border-0"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent"
+                    aria-controls="navbarSupportedContent"
+                    aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mx-auto mb-2 mb-lg-0 gap-lg-4 text-center">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#home">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#about">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#skills">Skills</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#projects">Projects</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact">Contact</a>
+                        </li>
+                    </ul>
+                    <div class="d-flex justify-content-center">
+                        <a href="./files/abdelazeem_ashraf_frontend_dev.pdf" download class="btn btn-dark px-4">
+                            <i class="fa-solid fa-file-arrow-down me-2"></i>
+                            Download Resume
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <!-- End Navbar -->
+        <!-- Hero Section -->
+        <section id="home" class="hero-section d-flex align-items-center min-vh-100 pt-5">
+            <div class="container">
+                <div class="row flex-lg-row-reverse align-items-center g-5">
+                    <div class="col-12 col-lg-5">
+                        <div class="hero-image-wrapper position-relative text-center">
+                            <div class="hero-bg-square"></div>
+                            <img
+                                src="./images/WhatsApp Image 2025-11-21 at 2.33.48 PM.jpeg"
+                                alt="Abdelazeem Ashraf Profile Photo"
+                                class="img-fluid position-relative hero-img border-white border-4" />
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-7">
+                        <h1 class="display-4 fw-extrabold mb-3">
+                            Hi, I'm Abdelazeem
+                            <span class="wave">👋</span>
+                        </h1>
+                        <h2 class="h3 text-primary mb-3">Frontend React Developer</h2>
+                        <p class="lead mb-4">
+                            I’m a Computer Science Graduate dedicated to building fast, responsive, and user-centric web applications.
+                            Specializing in React, JavaScript, and modern state management, I focus on turning ideas into clean,
+                            maintainable, and high-performance code.
+                        </p>
+                        <div class="d-flex flex-wrap align-items-center gap-3 mb-4 text-secondary">
+                            <div class="d-flex align-items-center">
+                                <i class="fa-solid fa-location-dot me-2 text-primary" aria-hidden="true"></i>
+                                <span>Egypt</span>
+                            </div>
+                            <div class="vr d-none d-sm-block"></div>
+                            <div class="d-flex align-items-center">
+                                <span class="status-dot me-2" aria-hidden="true"></span>
+                                <span>Open to remote & on-site roles</span>
+                            </div>
+                        </div>
+                        <!-- CTA Buttons -->
+                        <div class="d-flex flex-wrap gap-3 mb-4">
+                            <a href="#projects" class="btn btn-primary px-4 py-2.5">
+                                <i class="fa-solid fa-briefcase me-2" aria-hidden="true"></i>
+                                View Projects
+                            </a>
+                            <a href="#contact" class="btn btn-outline-dark px-4 py-2.5">
+                                <i class="fa-solid fa-paper-plane me-2" aria-hidden="true"></i>
+                                Contact Me
+                            </a>
+                        </div>
+                        <!-- Social Icons -->
+                        <div class="social-links d-flex gap-3">
+                            <a
+                                href="https://github.com/AbdelazimAshraf"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                class="social-link-icon text-secondary fs-4"
+                                aria-label="GitHub Profile">
+                                <i class="fa-brands fa-github"></i>
+                            </a>
+                            <a
+                                href="https://www.linkedin.com/in/abdelazim-ashraf-227177257/"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                class="social-link-icon text-secondary fs-4"
+                                aria-label="LinkedIn Profile">
+                                <i class="fa-brands fa-linkedin"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- End Hero Section -->
+        <!-- About Me Section -->
+        <section id="about" class="bg-alt">
+            <div class="container">
+                <div class="text-center mb-5">
+                    <span class="badge rounded-pill bg-secondary bg-opacity-10 text-secondary px-3 py-2 fw-medium">About me</span>
+                </div>
+                <div class="row align-items-center g-5">
+                    <div class="col-lg-6">
+                        <div class="position-relative">
+                            <div class="about-bg-square"></div>
+                            <img
+                                src="./images/WhatsApp Image 2025-11-21 at 2.33.48 PM.jpeg"
+                                alt="About Abdelazim"
+                                class="img-fluid position-relative shadow-lg img-about"
+                                style="border: 6px solid var(--bg-alt)" />
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <h2 class="mb-4">Curious about me? Here you have it:</h2>
+                        <p class="mb-4">
+                            I am a Software Engineer specializing in Frontend Development (React.js) and a Computer Science Graduate (Class
+                            of 2025). What sets me apart is my deep understanding of logic and algorithms, which allows me to write clean,
+                            efficient, and scalable code rather than just focusing on syntax.
+                        </p>
+                        <p class="mb-4">
+                            Through my training at DEPI, I have mastered building high-performance web applications using TypeScript, Redux,
+                            and Tailwind CSS. My experience includes developing dynamic projects like a fully responsive E-Commerce
+                            application, where I focused on optimizing state management and creating seamless, pixel-perfect user
+                            experiences. I am dedicated to bridging the gap between complex software architecture and intuitive frontend
+                            design.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Skills Section -->
+        <section id="skills" class="bg-alt">
+            <div class="container">
+                <div class="text-center mb-5">
+                    <span class="badge rounded-pill bg-secondary bg-opacity-10 text-secondary px-3 py-2 fw-medium">Skills</span>
+                    <h2 class="fw-bold mt-3">My Tech Stack</h2>
+                    <p class="text-muted">Technologies and tools I use to build modern web applications.</p>
+                </div>
+                <div class="row g-4">
+                    <!-- Frontend -->
+                    <div class="col-lg-3 col-md-6">
+                        <div class="card border-0 shadow-sm h-100 p-4">
+                            <h4 class="fw-bold mb-4">
+                                <i class="fa-solid fa-code text-primary me-2"></i>
+                                Frontend
+                            </h4>
+                            <div class="d-flex flex-wrap gap-2">
+                                <span class="skill-pill">
+                                    <img src="./images/icon-react.svg" width="18" />
+                                    React.js
+                                </span>
+                                <span class="skill-pill">
+                                    <img src="./images/icon-javscript.svg" width="18" />
+                                    JavaScript
+                                </span>
+                                <span class="skill-pill">
+                                    <img src="./images/icon-typescript.svg" width="18" />
+                                    TypeScript
+                                </span>
+                                <span class="skill-pill">
+                                    <img src="./images/html-5.svg" width="18" />
+                                    HTML5
+                                </span>
+                                <span class="skill-pill">
+                                    <img src="./images/css-3-svgrepo-com.svg" width="18" />
+                                    CSS3
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Styling -->
+                    <div class="col-lg-3 col-md-6">
+                        <div class="card border-0 shadow-sm h-100 p-4">
+                            <h4 class="fw-bold mb-4">
+                                <i class="fa-solid fa-palette text-primary me-2"></i>
+                                Styling
+                            </h4>
+                            <div class="d-flex flex-wrap gap-2">
+                                <span class="skill-pill">
+                                    <img src="./images/icon-tailwindcss.svg" width="18" />
+                                    Tailwind
+                                </span>
+                                <span class="skill-pill">
+                                    <img src="./images/bootstrap-svgrepo-com.svg" width="18" />
+                                    Bootstrap
+                                </span>
+                                <span class="skill-pill">
+                                    <i class="fa-solid fa-mobile-screen"></i>
+                                    Responsive
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- State -->
+                    <div class="col-lg-3 col-md-6">
+                        <div class="card border-0 shadow-sm h-100 p-4">
+                            <h4 class="fw-bold mb-4">
+                                <i class="fa-solid fa-layer-group text-primary me-2"></i>
+                                State
+                            </h4>
+                            <div class="d-flex flex-wrap gap-2">
+                                <li class="skill-pill">
+                                    <i class="fa-solid fa-layer-group text-primary me-1"></i>
+                                    Redux Toolkit
+                                </li>
+                                <li class="skill-pill">
+                                    <i class="fa-solid fa-arrow-down-up-lock text-info me-1"></i>
+                                    Context API
+                                </li>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Tools -->
+                    <div class="col-lg-3 col-md-6">
+                        <div class="card border-0 shadow-sm h-100 p-4">
+                            <h4 class="fw-bold mb-4">
+                                <i class="fa-solid fa-toolbox text-primary me-2"></i>
+                                Tools
+                            </h4>
+                            <div class="d-flex flex-wrap gap-2">
+                                <span class="skill-pill">
+                                    <img src="./images/icon-git.svg" width="18" />
+                                    Git
+                                </span>
+                                <span class="skill-pill">
+                                    <i class="fa-brands fa-github"></i>
+                                    GitHub
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- End Skills Section -->
+        <!--  Projects Section -->
+        <section id="projects" class="py-5">
+            <div class="container">
+                <div class="text-center mb-5">
+                    <span class="badge rounded-pill bg-secondary bg-opacity-10 text-secondary px-3 py-2 fw-medium">Projects</span>
+                    <h2 class="fw-bold mt-3">Featured Projects</h2>
+                    <p class="text-secondary">
+                        A selection of projects demonstrating my experience in React.js, JavaScript, responsive web development, and modern
+                        UI design.
+                    </p>
+                </div>
+                <div class="row g-4">
+                    <!-- BlogVerse -->
+                    <div class="col-lg-4 col-md-6">
+                        <div class="card border-0 shadow-sm h-100">
+                            <img src="./images/Screenshot 2026-07-20 191741.png" class="card-img-top" alt="BlogVerse Project" />
+                            <div class="card-body d-flex flex-column">
+                                <h4 class="fw-bold">BlogVerse</h4>
+                                <p class="text-muted small mb-3">
+                                    Developed a responsive blogging platform using React.js and reusable components. Implemented client-side
+                                    routing with React Router, consumed REST APIs to fetch blog data, and built responsive layouts optimized
+                                    for desktop and mobile devices. Collaborated with a backend developer to integrate frontend features
+                                    with server APIs.
+                                </p>
+                                <div class="mb-3">
+                                    <span class="badge bg-light text-dark border">React.js</span>
+                                    <span class="badge bg-light text-dark border">JavaScript</span>
+                                    <span class="badge bg-light text-dark border">Tailwind CSS</span>
+                                    <span class="badge bg-light text-dark border">React Router</span>
+                                    <span class="badge bg-light text-dark border">REST API</span>
+                                </div>
+                                <div class="mt-auto d-flex gap-2">
+                                    <a href="https://blog-verse-blush.vercel.app" target="_blank" class="btn btn-primary btn-sm">
+                                        Live Demo
+                                    </a>
+                                    <a
+                                        href="https://github.com/AbdelazimAshraf/BlogVerse/tree/main/React%20Js"
+                                        target="_blank"
+                                        class="btn btn-outline-dark btn-sm">
+                                        GitHub
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Exclusive -->
+                    <div class="col-lg-4 col-md-6">
+                        <div class="card border-0 shadow-sm h-100">
+                            <img src="./images/exclusive.png" class="card-img-top" alt="Exclusive" />
+                            <div class="card-body d-flex flex-column">
+                                <h4 class="fw-bold">Exclusive</h4>
+                                <p class="text-muted small mb-3">
+                                    Built a responsive e-commerce website with modern UI and interactive user experience. Implemented
+                                    product browsing, category filtering, reusable UI sections, and responsive layouts across different
+                                    screen sizes while maintaining clean and organized code.
+                                </p>
+                                <div class="mb-3">
+                                    <span class="badge bg-light text-dark border">HTML5</span>
+                                    <span class="badge bg-light text-dark border">CSS3</span>
+                                    <span class="badge bg-light text-dark border">JavaScript</span>
+                                    <span class="badge bg-light text-dark border">Responsive Design</span>
+                                </div>
+                                <div class="mt-auto d-flex gap-2">
+                                    <a href="https://abdelazimashraf.github.io/exclusive/" target="_blank" class="btn btn-primary btn-sm">
+                                        Live Demo
+                                    </a>
+                                    <a
+                                        href="https://github.com/AbdelazimAshraf/exclusive"
+                                        target="_blank"
+                                        class="btn btn-outline-dark btn-sm">
+                                        GitHub
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Restaurant -->
+                    <div class="col-lg-4 col-md-6">
+                        <div class="card border-0 shadow-sm h-100">
+                            <img src="./images/Screenshot 2026-07-20 192140.png" class="card-img-top" alt="Restaurant Website" />
+                            <div class="card-body d-flex flex-column">
+                                <h4 class="fw-bold">Restaurant Website</h4>
+                                <p class="text-muted small mb-3">
+                                    Designed and developed a responsive restaurant landing page featuring modern layouts, interactive
+                                    navigation, reusable sections, and mobile-friendly design to provide an engaging user experience.
+                                </p>
+                                <div class="mb-3">
+                                    <span class="badge bg-light text-dark border">HTML5</span>
+                                    <span class="badge bg-light text-dark border">CSS3</span>
+                                    <span class="badge bg-light text-dark border">JavaScript</span>
+                                </div>
+                                <div class="mt-auto d-flex gap-2">
+                                    <a href="https://abdelazimashraf.github.io/restaurant/" target="_blank" class="btn btn-primary btn-sm">
+                                        Live Demo
+                                    </a>
+                                    <a
+                                        href="https://github.com/AbdelazimAshraf/restaurant"
+                                        target="_blank"
+                                        class="btn btn-outline-dark btn-sm">
+                                        GitHub
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact-section bg-alt">
+            <div class="container">
+                <div class="text-center mb-5">
+                    <span class="badge rounded-pill bg-secondary bg-opacity-10 text-secondary px-3 py-2 fw-medium">Get in touch</span>
+                    <p class="mt-3 text-secondary max-w-lg mx-auto" style="max-width: 500px">
+                        What's next? Feel free to reach out to me if you are looking for an intern, have a query, or simply want to connect.
+                    </p>
+                </div>
+
+                <div class="row g-5 align-items-stretch">
+                    <!-- Contact Info Column -->
+                    <div class="col-12 col-md-5 d-flex flex-column justify-content-between">
+                        <div class="contact-info-card card border-0 shadow-sm p-4 h-100">
+                            <h3 class="h4 fw-bold mb-4">Contact Info</h3>
+
+                            <div class="d-flex align-items-center gap-3 mb-4">
+                                <div class="contact-icon-wrapper text-primary">
+                                    <i class="fa-regular fa-envelope"></i>
+                                </div>
+
+                                <div>
+                                    <p class="mb-0 text-secondary text-sm">Email Me</p>
+
+                                    <div class="d-flex align-items-center gap-2">
+                                        <a
+                                            href="mailto:abdelazeemashraf175@gmail.com"
+                                            id="email"
+                                            class="text-decoration-none fw-semibold text-dark">
+                                            abdelazeemashraf175@gmail.com
+                                        </a>
+
+                                        <button
+                                            id="copyEmailBtn"
+                                            class="btn btn-link p-0 border-0 text-secondary"
+                                            onclick="copyEmail()"
+                                            title="Copy Email">
+                                            <i class="fa-regular fa-copy"></i>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="d-flex align-items-center gap-3 mb-4">
+                                <div class="contact-icon-wrapper text-primary">
+                                    <i class="fa-solid fa-phone"></i>
+                                </div>
+
+                                <div>
+                                    <p class="mb-0 text-secondary text-sm">Call Me</p>
+
+                                    <div class="d-flex align-items-center gap-2">
+                                        <a href="tel:+201027846141" id="phone" class="text-decoration-none fw-semibold text-dark">
+                                            +20 102 784 6141
+                                        </a>
+
+                                        <button
+                                            id="copyPhoneBtn"
+                                            class="btn btn-link p-0 border-0 text-secondary"
+                                            onclick="copyPhone()"
+                                            title="Copy Phone">
+                                            <i class="fa-regular fa-copy"></i>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="mt-4 pt-4 border-top">
+                                <p class="text-secondary mb-3">Or connect via social platforms:</p>
+                                <div class="d-flex gap-3">
+                                    <a
+                                        href="https://github.com/AbdelazimAshraf"
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                        class="contact-social-btn text-secondary fs-4"
+                                        aria-label="GitHub Profile">
+                                        <i class="fa-brands fa-github"></i>
+                                    </a>
+                                    <a
+                                        href="https://www.linkedin.com/in/abdelazim-ashraf-227177257/"
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                        class="contact-social-btn text-secondary fs-4"
+                                        aria-label="LinkedIn Profile">
+                                        <i class="fa-brands fa-linkedin"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Contact Form Column -->
+                    <div class="col-12 col-md-7">
+                        <div class="card border-0 shadow-sm p-4 h-100">
+                            <h3 class="h4 fw-bold mb-4">Send a Message</h3>
+                            <form id="contact-form" novalidate>
+                                <div class="mb-3">
+                                    <label for="form-name" class="form-label fw-medium">Name</label>
+                                    <input type="text" class="form-control" id="form-name" placeholder="Your Name" required />
+                                    <div class="invalid-feedback">Please enter your name.</div>
+                                </div>
+                                <div class="mb-3">
+                                    <label for="form-email" class="form-label fw-medium">Email address</label>
+                                    <input type="email" class="form-control" id="form-email" placeholder="name@example.com" required />
+                                    <div class="invalid-feedback">Please enter a valid email address.</div>
+                                </div>
+                                <div class="mb-3">
+                                    <label for="form-message" class="form-label fw-medium">Message</label>
+                                    <textarea
+                                        class="form-control"
+                                        id="form-message"
+                                        rows="4"
+                                        placeholder="Your message here..."
+                                        required></textarea>
+                                    <div class="invalid-feedback">Please type a message.</div>
+                                </div>
+                                <button type="submit" class="btn btn-dark w-100 py-2.5">
+                                    <span class="btn-text">Send Message</span>
+                                    <span class="spinner-border spinner-border-sm d-none" role="status" aria-hidden="true"></span>
+                                </button>
+                                <div id="form-feedback" class="mt-3 alert d-none" role="alert"></div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer class="bg-alt py-4 text-center">
+            <div class="container">
+                <p class="mb-0 text-secondary">
+                    <i class="fa-regular fa-copyright"></i>
+                    2026 |
+                    <span class="text-decoration-underline">coded</span>
+                    with by Abdelazim Ashraf
+                </p>
+            </div>
+        </footer>
+
+        <script
+            src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+            integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+            crossorigin="anonymous"></script>
+
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+            crossorigin="anonymous"></script>
+
+        <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+        <script src="./js/main.js"></script>
+    </body>
+</html>
